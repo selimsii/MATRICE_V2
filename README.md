@@ -12,10 +12,10 @@
 
   **The library works as follows:**
   
-1) MATRICE class takes only 4 types of one input as vector inside a vector such as: vector<vector<int>>, vector<vector<float>>, vector<vector<long>>, vector<vector<double>>
+1) MATRICE class takes only 4 types of one input as vector inside a vector such as: __vector<vector<int>>__, __vector<vector<float>>__, __vector<vector<long>>__, __vector<vector<double>>__
 
 2) SQUARE_MATRICE class inherits from the MATRICE class, and only some certain types of functions are available for MATRICE class 
-(denoted as:random(),transpose(),scaler_multiplication(),vectoral_multiplication(),elementwise_multiplication(),elementwise_division(),summation()) rest of the functions are only availabe for SQUARE_MATRICE class since these require to be an square matrice.
+(denoted as:**random(),transpose(),scaler_multiplication(),vectoral_multiplication(),elementwise_multiplication(),elementwise_division(),summation())** rest of the functions are only availabe for SQUARE_MATRICE class since these require to be an square matrice.
 
 3) Apart from only the __"determinant()"__ function, each function returns __"any"__ type which can have the following types inside: vector<vector<int>>, vector<vector<float>>, vector<vector<long>>, vector<vector<double>>. These vectors can be assigned to new vectors in main by simply using "any_cast<vector<vector<double>>>object.function()".
 
