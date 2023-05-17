@@ -12,7 +12,7 @@
 
   **The library works as follows:**
   
-1) MATRICE class takes only 4 types of one input as vector inside a vector such as: __vector<vector<int>>__, __vector<vector<float>>__, __vector<vector<long>>__, __vector<vector<double>>__
+1) MATRICE class takes only 4 types of one input as vector inside a vector such as: vector<vector<int>>, vector<vector<float>>__, __vector<vector<long>>, vector<vector<double>>
 
 2) SQUARE_MATRICE class inherits from the MATRICE class, and only some certain types of functions are available for MATRICE class 
 (denoted as:**random(),transpose(),scaler_multiplication(),vectoral_multiplication(),elementwise_multiplication(),elementwise_division(),summation())** rest of the functions are only availabe for SQUARE_MATRICE class since these require to be an square matrice.
