@@ -21,7 +21,7 @@
 
 4) __"determinant()"__  function also returns any type but this time the "any" type may have the following types inside since its not an vector of matrice: float, double. These values can be assigned to new vectors in main by simply using "std::any_cast<float>object.determinant()" or "std::any_cast<double>object.determinant()".
 
-5) When you create new object with vector<vector<(int)>> or vector<vector<(long)>> the object functions may return vector<vector<(float)>> or vector<vector<(double)>> to prevent data loss due to matrice operations.
+5) When you create new object with **vector<vector<(int)>>** or **vector<vector<(long)>>** the object functions may return **vector<vector<(float)>>** or **vector<vector<(double)>>** to prevent data loss due to matrice operations.
 (Such as elementwise_division() or inverse_matrice())
 
 6) Matrice size is not restricted with a finite number. Operations are available for any mxn sized vectors of matrice
